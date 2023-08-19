@@ -19,13 +19,14 @@ h6 {
 }
 body {
   padding-left: 70px;
-  padding-right: 70px;
+
   background-color: rgb(55, 5, 88) !important;
 }
 hr {
   color: rgb(255, 255, 255) !important;
   opacity: 100% !important;
   padding-bottom: 30px !important;
+  margin-right: 70px !important;
 }
 .informacion {
   padding-top: 18px;
@@ -78,4 +79,34 @@ aside img {
   width: 220px;
   border-style: solid;
   margin-bottom: 40px !important;
+}
+main {
+  background: url(../images/blanco.jpg);
+  padding-left: 50px;
+  padding-right: 80px;
+}
+.contenido {
+  display: flex;
+  gap: 30px;
+}
+.perfil {
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+.experiencia {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.educación {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.intereses {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+footer {
+  color: aliceblue;
+  text-align: center;
+  padding: 30px;
 }
