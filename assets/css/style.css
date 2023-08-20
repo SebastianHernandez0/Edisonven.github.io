@@ -85,7 +85,7 @@ aside {
 }
 main {
   background: url(../images/blanco.jpg);
-  padding-left: 50px;
+  padding-left: 50px !important;
   padding-right: 80px;
   padding-bottom: 20px;
 }
