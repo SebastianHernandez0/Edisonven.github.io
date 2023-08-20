@@ -80,6 +80,9 @@ aside img {
   border-style: solid;
   margin-bottom: 40px !important;
 }
+aside {
+  max-width: 30% !important;
+}
 main {
   background: url(../images/blanco.jpg);
   padding-left: 50px;
