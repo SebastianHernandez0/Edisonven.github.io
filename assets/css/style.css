@@ -91,41 +91,49 @@ main {
   gap: 30px;
 }
 .perfil {
+  display: flex;
+  align-items: baseline;
   padding-top: 18px;
   padding-bottom: 18px;
   padding-right: 10px;
   background-color: aqua;
-  width: 140px;
+  width: 190px;
   border-radius: 20px;
   margin-top: 40px;
   margin-bottom: 20px;
 }
 .experiencia {
+  display: flex;
+  align-items: baseline;
   padding-top: 18px;
   padding-bottom: 18px;
   padding-right: 10px;
   background-color: aqua;
-  width: 220px;
+  width: 280px;
   border-radius: 20px;
   margin-top: 40px;
   margin-bottom: 20px;
 }
 .educación {
+  display: flex;
+  align-items: baseline;
   padding-top: 18px;
   padding-bottom: 18px;
   padding-right: 10px;
   background-color: aqua;
-  width: 200px;
+  width: 270px;
   border-radius: 20px;
   margin-top: 40px;
   margin-bottom: 20px;
 }
 .intereses {
+  display: flex;
+  align-items: baseline;
   padding-top: 18px;
   padding-bottom: 18px;
   padding-right: 10px;
   background-color: aqua;
-  width: 200px;
+  width: 260px;
   border-radius: 20px;
   margin-top: 40px;
   margin-bottom: 20px;
