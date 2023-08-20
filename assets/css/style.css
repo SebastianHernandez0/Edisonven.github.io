@@ -84,26 +84,51 @@ main {
   background: url(../images/blanco.jpg);
   padding-left: 50px;
   padding-right: 80px;
+  padding-bottom: 20px;
 }
 .contenido {
   display: flex;
   gap: 30px;
 }
 .perfil {
-  padding-bottom: 30px;
-  padding-top: 50px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: 10px;
+  background-color: aqua;
+  width: 140px;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 .experiencia {
-  padding-top: 70px;
-  padding-bottom: 30px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: 10px;
+  background-color: aqua;
+  width: 220px;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 .educación {
-  padding-top: 70px;
-  padding-bottom: 30px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: 10px;
+  background-color: aqua;
+  width: 200px;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 .intereses {
-  padding-top: 70px;
-  padding-bottom: 30px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: 10px;
+  background-color: aqua;
+  width: 200px;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 footer {
   display: flex;
@@ -116,4 +141,7 @@ footer {
 footer img {
   width: 40px;
   height: 35px;
+}
+.navbar-nav a:hover {
+  color: aqua !important;
 }
