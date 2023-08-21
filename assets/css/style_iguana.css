@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+}
+
+main {
+  background-image: url(../images/bg-header.jpg);
+  background-size: cover;
+  height: 40em;
+}
+article {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  gap: 100px;
+  padding-right: 160px;
+  padding-left: 160px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+article img {
+  width: 320px;
+}
+
+.caracteristicas {
+  background-color: rgb(30, 26, 19, 1);
+  font-size: 20px;
+  padding: 50px;
+  color: white;
+}
+
+.titulo2 {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.cajas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cajas i {
+  padding: 20px;
+}
+
+.caja {
+  text-align: center;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 50px;
+  gap: 30px;
+}
+
+.imagenes img {
+  width: 300px;
+  height: 200px;
+}
+
+footer {
+  background-color: rgb(30, 26, 19, 1);
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: 20px;
+}
+
+footer a:hover {
+  color: chocolate;
+}
+h1 {
+  font-weight: 500;
+}
+p {
+  font-weight: 300;
+}
