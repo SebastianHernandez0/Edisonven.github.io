@@ -36,15 +36,7 @@ body {
 .proyectos {
   color: aliceblue;
 }
-.carousel-item img,
-a:hover {
-  color: rgb(205, 157, 250) !important;
-  font-size: 40px !important;
-}
-.carousel-item img,
-a {
-  transition: all 0.5s !important;
-}
+
 header {
   display: flex;
   align-items: top;
@@ -70,4 +62,12 @@ footer img {
   width: 50px;
   height: 45px;
   padding: 10px;
+}
+
+.carrusel a:hover {
+  color: blueviolet !important;
+  font-size: 40px !important;
+}
+.carousel-item a {
+  transition: all 0.5s !important;
 }
