@@ -25,18 +25,31 @@ body {
 .presentación {
   color: aliceblue;
   font-size: 70px;
-  padding-left: 100px !important;
-  padding-top: 100px;
-  padding-bottom: 30px;
+  padding-left: 100px;
 }
 .descripción {
   color: aliceblue;
   text-align: justify;
-  padding-left: 100px;
-  display: flex;
-  gap: 300px;
+  align-items: center;
 }
 .proyectos {
   color: aliceblue;
-  padding-right: 40px;
+}
+.carousel-item img,
+a:hover {
+  color: blueviolet !important;
+}
+header {
+  display: flex;
+  align-items: top;
+  margin-top: 50px;
+  gap: 300px;
+}
+.descripción p {
+  width: 50%;
+}
+
+.navbar-collapse img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
 }
