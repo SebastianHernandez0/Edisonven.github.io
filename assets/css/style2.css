@@ -68,3 +68,6 @@ footer img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
 }
+.carousel-caption img {
+  width: 100%;
+}
