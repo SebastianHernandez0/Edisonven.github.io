@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+footer img{
+    width: 100px;
+}
+nav{
+    background-color: #28a745;
+}
+nav a img{
+    width: 100px;
+}
+.cupones{
+    background-color: #28a745;
+}.strong{
+    background-color: #28a745;
+}
+.green{
+    color:  #28a745;
+}
+p{
+    font-weight: 300;
+}
+nav .navbar-collapse{
+    justify-content: end;
+    padding-right: 40px;
+}

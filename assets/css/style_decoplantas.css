@@ -1,0 +1,56 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+        Geneva, Verdana, sans-serif;
+}
+
+main {
+    background-image: url(../images/decoplantas1.jpg);
+    background-size: cover;
+    height: 20em;
+}
+
+main h1,
+h3 {
+    font-weight: 400;
+    padding-left: 5%;
+}
+
+main h1 {
+    padding-top: 2em;
+    font-size: 2.5em;
+}
+
+
+
+.products img {
+    width: 18%;
+    border: solid 3px #750505;
+}
+
+.products .product {
+    display: flex;
+    align-items: center;
+    padding: 2em;
+}
+
+.products .product .info {
+    padding-left: 2em;
+}
+
+.footer {
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(185, 112, 41);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+
+section {
+    background-color: rgb(250, 235, 215);
+}
