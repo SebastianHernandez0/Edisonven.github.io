@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+p {
+  margin: 0 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important;
+}
+body {
+  background-image: url(../images/fondo-galaxia2.jpg);
+  background-size: cover;
+  height: 905px;
+}
+.navbar-collapse {
+  justify-content: end;
+}
+.presentación {
+  color: aliceblue;
+  font-size: 80px;
+  padding-left: 100px !important;
+  padding-top: 100px;
+  font-family: "Times New Roman", Times, serif;
+}
+.descripción {
+  color: aliceblue;
+  text-align: justify;
+  padding-left: 100px;
+  display: flex;
+  gap: 300px;
+}
+.proyectos {
+  color: aliceblue;
+  padding-right: 100px;
+  font-family: "Times New Roman", Times, serif;
+}
