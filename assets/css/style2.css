@@ -51,6 +51,7 @@ header {
 .navbar-collapse img:hover {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
+  transition: all 0.4s ease-in-out;
 }
 footer {
   color: aliceblue;
@@ -67,6 +68,7 @@ footer img {
 .carousel-caption img:hover {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
+  transition: all 0.4s ease-in-out;
 }
 .carousel-caption img {
   width: 100%;
