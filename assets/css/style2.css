@@ -31,19 +31,26 @@ body {
   color: aliceblue;
   text-align: justify;
   align-items: center;
+  padding-left: 50px;
 }
 .proyectos {
   color: aliceblue;
 }
 .carousel-item img,
 a:hover {
-  color: blueviolet !important;
+  color: rgb(205, 157, 250) !important;
+  font-size: 40px !important;
+}
+.carousel-item img,
+a {
+  transition: all 0.5s !important;
 }
 header {
   display: flex;
   align-items: top;
   margin-top: 50px;
   gap: 300px;
+  padding-right: 40px;
 }
 .descripción p {
   width: 50%;
@@ -52,4 +59,15 @@ header {
 .navbar-collapse img:hover {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
+}
+footer {
+  color: aliceblue;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+}
+footer img {
+  width: 50px;
+  height: 45px;
+  padding: 10px;
 }
