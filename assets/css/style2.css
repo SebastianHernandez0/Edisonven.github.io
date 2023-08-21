@@ -64,7 +64,7 @@ footer img {
   padding: 10px;
 }
 
-.carrusel a:hover {
+.carousel-inner a:hover {
   color: blueviolet !important;
   font-size: 40px !important;
 }
