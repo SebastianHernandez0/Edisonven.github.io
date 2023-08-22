@@ -15,7 +15,7 @@ h6 {
   margin: 0 !important;
 }
 body {
-  background-image: url(../images/fondo-oscuro3.5.jpg);
+  background-image: url(../images/fondo-oscuro3.jpg);
   background-size: cover;
   height: 905px;
 }
@@ -72,3 +72,9 @@ footer img {
 .carousel-caption img {
   width: 100%;
 }
+/* .caritafeliz {
+  width: 150px;
+  height: 120px;
+  margin-left: 50px;
+}
+ */
