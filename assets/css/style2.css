@@ -94,3 +94,6 @@ footer img {
 hr {
   color: aliceblue !important;
 }
+.dropdown-menu a:hover {
+  color: blue;
+}
