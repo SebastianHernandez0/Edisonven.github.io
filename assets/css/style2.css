@@ -24,25 +24,13 @@ body {
 }
 .presentación {
   color: aliceblue;
-  font-size: 70px;
-  padding-left: 100px;
-  padding-top: 50px;
+  font-size: 50px;
+  align-items: center;
 }
 .descripción {
   color: aliceblue;
   text-align: justify;
   align-items: center;
-  padding-left: 50px;
-}
-.proyectos {
-  color: aliceblue;
-}
-
-header {
-  display: flex;
-  align-items: top;
-  gap: 300px;
-  padding-right: 40px;
 }
 .descripción p {
   width: 50%;
@@ -74,7 +62,8 @@ footer img {
   width: 100%;
 }
 .caritafeliz {
-  width: 150px;
-  height: 120px;
+  width: 220px;
+  height: 180px;
   margin-left: 50px;
+  margin-top: 50px;
 }
