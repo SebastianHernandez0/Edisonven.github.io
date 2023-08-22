@@ -68,3 +68,12 @@ footer img {
   justify-content: center;
   padding: 50px;
 }
+.card-img-overlay img {
+  width: 100%;
+  padding: 50px;
+  margin-top: 80px;
+}
+.imagen img:hover {
+  filter: opacity(0.5);
+  transition: all 0.4s ease-in-out;
+}
