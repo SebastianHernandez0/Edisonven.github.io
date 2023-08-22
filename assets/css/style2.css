@@ -22,20 +22,21 @@ body {
 .navbar-collapse {
   justify-content: end;
 }
+
 .presentación {
   color: aliceblue;
+  display: flex;
+  justify-content: center;
   font-size: 50px;
-  align-items: center;
 }
 .descripción {
   color: aliceblue;
   text-align: justify;
   align-items: center;
 }
-.descripción p {
-  width: 50%;
+.header {
+  gap: 50px;
 }
-
 .navbar-collapse img:hover {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
@@ -62,8 +63,8 @@ footer img {
   width: 100%;
 }
 .caritafeliz {
-  width: 220px;
-  height: 180px;
-  margin-left: 50px;
-  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
 }
