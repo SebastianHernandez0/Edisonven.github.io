@@ -44,10 +44,10 @@ body {
 }
 footer {
   color: aliceblue;
-  padding-top: 50px;
-  padding-left: 50px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  padding-top: 50px;
 }
 footer img {
   width: 50px;
@@ -76,4 +76,17 @@ footer img {
 .imagen img:hover {
   filter: opacity(0.5);
   transition: all 0.4s ease-in-out;
+}
+.tecnologias {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tecnologias2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row-justify {
+  justify-content: center;
 }
