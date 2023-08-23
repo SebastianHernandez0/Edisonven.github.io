@@ -97,7 +97,7 @@ hr {
 }
 
 .face {
-  width: 200px;
+  width: 180px;
   height: 100px;
   margin-top: 10px;
 }
@@ -108,4 +108,10 @@ hr {
 }
 .btn-transparent {
   font-size: 25px !important;
+}
+.col-xs-12 i {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
 }
